@@ -1,0 +1,1482 @@
+{
+  "skinId": "royal_amethyst_36",
+  "frameId": "16180:33156",
+  "frameName": "首页全尺寸-游戏类型",
+  "root": {
+    "id": "16180:33156",
+    "name": "首页全尺寸-游戏类型",
+    "type": "frame",
+    "bbox": [
+      -1368,
+      -6740,
+      390,
+      6372.1787109375
+    ],
+    "children": [
+      {
+        "id": "16180:33157",
+        "name": "顶部渐变",
+        "type": "rounded-rectangle",
+        "bbox": [
+          0,
+          50,
+          390,
+          580
+        ]
+      },
+      {
+        "id": "16180:33158",
+        "name": "下载+头部",
+        "type": "frame",
+        "bbox": [
+          0,
+          0,
+          390,
+          100
+        ],
+        "children": [
+          {
+            "id": "16180:33159",
+            "name": "下载",
+            "type": "frame",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "children": [
+              {
+                "id": "16180:33160",
+                "name": "Frame 293",
+                "type": "frame",
+                "bbox": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "children": [
+                  {
+                    "id": "16180:33161",
+                    "name": "Frame",
+                    "type": "frame",
+                    "bbox": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  {
+                    "id": "16180:33164",
+                    "name": "Baixar APP",
+                    "type": "text",
+                    "bbox": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "16180:33165",
+                "name": "Frame 23439",
+                "type": "frame",
+                "bbox": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "children": [
+                  {
+                    "id": "16180:33166",
+                    "name": "Ellipse 101",
+                    "type": "ellipse",
+                    "bbox": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  {
+                    "id": "16180:33167",
+                    "name": "close",
+                    "type": "instance",
+                    "bbox": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "16180:33168",
+                "name": "Frame 718",
+                "type": "frame",
+                "bbox": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "children": [
+                  {
+                    "id": "16180:33169",
+                    "name": "Frame 995",
+                    "type": "frame",
+                    "bbox": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "children": [
+                      {
+                        "id": "16180:33170",
+                        "name": "Rectangle 2081",
+                        "type": "rounded-rectangle",
+                        "bbox": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ]
+                      },
+                      {
+                        "id": "16180:33171",
+                        "name": "Frame 862",
+                        "type": "frame",
+                        "bbox": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ],
+                        "children": [
+                          {
+                            "id": "16180:33172",
+                            "name": "image 210",
+                            "type": "rounded-rectangle",
+                            "bbox": [
+                              0,
+                              0,
+                              0,
+                              0
+                            ]
+                          },
+                          {
+                            "id": "16180:33173",
+                            "name": "image 211",
+                            "type": "rounded-rectangle",
+                            "bbox": [
+                              0,
+                              0,
+                              0,
+                              0
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "16180:33174",
+                    "name": "Baixe Nosso APP, Ganhe Super Prêmios!",
+                    "type": "text",
+                    "bbox": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  {
+                    "id": "16180:33175",
+                    "name": "Frame 23440",
+                    "type": "frame",
+                    "bbox": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ],
+                    "children": [
+                      {
+                        "id": "16180:33176",
+                        "name": "image 181",
+                        "type": "rounded-rectangle",
+                        "bbox": [
+                          0,
+                          0,
+                          0,
+                          0
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "16180:33177",
+            "name": "_头部",
+            "type": "frame",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "children": [
+              {
+                "id": "16180:33178",
+                "name": "Frame 297",
+                "type": "frame",
+                "bbox": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "children": [
+                  {
+                    "id": "16180:33179",
+                    "name": "Earth (地球仪)",
+                    "type": "instance",
+                    "bbox": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "16180:33180",
+                "name": "logo",
+                "type": "instance",
+                "bbox": [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "id": "16180:33181",
+                "name": "button",
+                "type": "frame",
+                "bbox": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "children": [
+                  {
+                    "id": "16180:33182",
+                    "name": "Entrar",
+                    "type": "text",
+                    "bbox": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "16180:33183",
+                "name": "button",
+                "type": "frame",
+                "bbox": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "children": [
+                  {
+                    "id": "16180:33184",
+                    "name": "Registrar",
+                    "type": "text",
+                    "bbox": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "16180:33185",
+        "name": "轮播",
+        "type": "frame",
+        "bbox": [
+          12,
+          116,
+          366,
+          170
+        ],
+        "children": [
+          {
+            "id": "16180:33186",
+            "name": "轮播",
+            "type": "frame",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "children": [
+              {
+                "id": "16180:33187",
+                "name": "ebeb21fd-a0e1-4ac1-8498-4899668a53e8 1",
+                "type": "rounded-rectangle",
+                "bbox": [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "id": "16180:33188",
+                "name": "0f3c5fd5-14b4-4813-abbf-c0153b3283c5 1",
+                "type": "rounded-rectangle",
+                "bbox": [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "id": "16180:33189",
+                "name": "image 1119",
+                "type": "rounded-rectangle",
+                "bbox": [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "id": "16180:33197",
+                "name": "image 1203",
+                "type": "rounded-rectangle",
+                "bbox": [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "id": "16180:33198",
+            "name": "轮播",
+            "type": "frame",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "children": [
+              {
+                "id": "16180:33199",
+                "name": "ebeb21fd-a0e1-4ac1-8498-4899668a53e8 1",
+                "type": "rounded-rectangle",
+                "bbox": [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "id": "16180:33205",
+                "name": "image 1123",
+                "type": "rounded-rectangle",
+                "bbox": [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "16180:33210",
+        "name": "厂商 tab",
+        "type": "frame",
+        "bbox": [
+          12,
+          302,
+          366,
+          92
+        ],
+        "children": [
+          {
+            "id": "16180:33211",
+            "name": "Frame 1410103356",
+            "type": "frame",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "children": [
+              {
+                "id": "16180:33212",
+                "name": "Frame 1410103350",
+                "type": "frame",
+                "bbox": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "children": [
+                  {
+                    "id": "16180:33213",
+                    "name": "__按钮背景",
+                    "type": "instance",
+                    "bbox": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  {
+                    "id": "16180:33214",
+                    "name": "Game/Popular",
+                    "type": "instance",
+                    "bbox": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "16180:33215",
+                "name": "Popular",
+                "type": "text",
+                "bbox": [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "id": "16180:33216",
+            "name": "Frame 1410103357",
+            "type": "frame",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "children": [
+              {
+                "id": "16180:33217",
+                "name": "Frame 1410103350",
+                "type": "frame",
+                "bbox": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "children": [
+                  {
+                    "id": "16180:33218",
+                    "name": "__按钮背景",
+                    "type": "instance",
+                    "bbox": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  {
+                    "id": "16180:33219",
+                    "name": "GAME-单色",
+                    "type": "instance",
+                    "bbox": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "16180:33220",
+                "name": "Fachai",
+                "type": "text",
+                "bbox": [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          },
+          {
+            "id": "16180:33221",
+            "name": "Frame 1410103358",
+            "type": "frame",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "16180:33226",
+            "name": "Frame 1410103359",
+            "type": "frame",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "16180:33231",
+            "name": "Frame 1410103360",
+            "type": "frame",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "16180:33236",
+        "name": "公告搜索",
+        "type": "frame",
+        "bbox": [
+          12,
+          410,
+          366,
+          70
+        ],
+        "children": [
+          {
+            "id": "16180:33237",
+            "name": "Notice",
+            "type": "frame",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "children": [
+              {
+                "id": "16180:33238",
+                "name": "Frame 17",
+                "type": "frame",
+                "bbox": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "children": [
+                  {
+                    "id": "16180:33239",
+                    "name": "提示扩散红点",
+                    "type": "instance",
+                    "bbox": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  {
+                    "id": "16180:33240",
+                    "name": "Prezados clientes...",
+                    "type": "text",
+                    "bbox": [
+                      0,
+                      0,
+                      0,
+                      0
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "16180:33241",
+            "name": "search",
+            "type": "frame",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "children": [
+              {
+                "id": "16180:33243",
+                "name": "Find",
+                "type": "instance",
+                "bbox": [
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "16180:33244",
+        "name": "_营销图轮播",
+        "type": "instance",
+        "bbox": [
+          12,
+          496,
+          366,
+          124
+        ]
+      },
+      {
+        "id": "16180:33380",
+        "name": "排行榜",
+        "type": "frame",
+        "bbox": [
+          0,
+          3659.178466796875,
+          390,
+          652
+        ],
+        "children": [
+          {
+            "id": "16180:33381",
+            "name": "背景",
+            "type": "vector",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "16603:27228",
+            "name": "高光",
+            "type": "vector",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "16180:33385",
+            "name": "底纹",
+            "type": "frame",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "16180:33388",
+            "name": "Frame 1410103322",
+            "type": "frame",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "16180:33448",
+            "name": "Frame 883",
+            "type": "frame",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "16180:33484",
+            "name": "Rank",
+            "type": "text",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "16180:33485",
+            "name": "Usuário",
+            "type": "text",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "16180:33486",
+            "name": "Comissão",
+            "type": "text",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "16180:33487",
+            "name": "title icon",
+            "type": "frame",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "16180:33490",
+            "name": "Frame 760",
+            "type": "frame",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "16180:33493",
+            "name": "Vector",
+            "type": "vector",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "16180:33494",
+            "name": "Vector",
+            "type": "vector",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "16180:33495",
+        "name": "游戏盒子",
+        "type": "frame",
+        "bbox": [
+          12,
+          4327.1787109375,
+          366,
+          386
+        ],
+        "children": [
+          {
+            "id": "16180:33496",
+            "name": "title",
+            "type": "frame",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "16180:33506",
+            "name": "_game cover",
+            "type": "instance",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "16180:33507",
+            "name": "More",
+            "type": "frame",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "16180:33517",
+        "name": "视频 合作 下载",
+        "type": "frame",
+        "bbox": [
+          0,
+          4729.1787109375,
+          390,
+          968
+        ],
+        "children": [
+          {
+            "id": "16180:33518",
+            "name": "video",
+            "type": "frame",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "16180:33524",
+            "name": "厂商",
+            "type": "frame",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "16180:33575",
+            "name": "充值",
+            "type": "frame",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "16180:33650",
+            "name": "down card",
+            "type": "frame",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "16180:33670",
+        "name": "底部信息",
+        "type": "frame",
+        "bbox": [
+          -0.5,
+          5713.1787109375,
+          391,
+          659
+        ],
+        "children": [
+          {
+            "id": "16180:33671",
+            "name": "logo",
+            "type": "instance",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "16180:33672",
+            "name": "Frame 993",
+            "type": "frame",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "16180:33675",
+            "name": "Frame 1410103092",
+            "type": "frame",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "16180:33677",
+            "name": "Frame 759",
+            "type": "frame",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "16180:33684",
+            "name": "Frame 1410103093",
+            "type": "frame",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "16180:33700",
+            "name": "Frame 1410103094",
+            "type": "frame",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "17395:35412",
+            "name": "客服",
+            "type": "frame",
+            "bbox": [
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "16180:33731",
+        "name": "_tab bar",
+        "type": "instance",
+        "bbox": [
+          0,
+          6316,
+          390,
+          56
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "sectionId": "section_0_16180_33157",
+      "figmaNodeId": "16180:33157",
+      "figmaPath": "顶部渐变",
+      "figmaName": "顶部渐变",
+      "figmaType": "rounded-rectangle",
+      "fingerprint": {
+        "depth": 1,
+        "nodeCount": 1,
+        "childCount": 0,
+        "counts": {
+          "rounded-rectangle": 1
+        },
+        "hasText": false,
+        "textCount": 0,
+        "hasIntance": false,
+        "instanceCount": 0,
+        "haskImagesLike": true,
+        "imageLikeCount": 1,
+        "hasButtonLike": false,
+        "buttonLikeCount": 0,
+        "bbox": [
+          0,
+          50,
+          390,
+          580
+        ],
+        "keywords": [
+          "顶部渐变"
+        ],
+        "summary": "Section \"顶部渐变\", type: rounded-rectangle, depth: 1, nodes: 1, 1 image placeholders"
+      }
+    },
+    {
+      "sectionId": "section_1_16180_33158",
+      "figmaNodeId": "16180:33158",
+      "figmaPath": "下载+头部",
+      "figmaName": "下载+头部",
+      "figmaType": "frame",
+      "fingerprint": {
+        "depth": 6,
+        "nodeCount": 25,
+        "childCount": 2,
+        "counts": {
+          "frame": 13,
+          "text": 4,
+          "ellipse": 1,
+          "instance": 3,
+          "rounded-rectangle": 4
+        },
+        "hasText": true,
+        "textCount": 4,
+        "hasIntance": true,
+        "instanceCount": 3,
+        "haskImagesLike": true,
+        "imageLikeCount": 4,
+        "hasButtonLike": true,
+        "buttonLikeCount": 2,
+        "bbox": [
+          0,
+          0,
+          390,
+          100
+        ],
+        "keywords": [
+          "下载",
+          "头部",
+          "frame",
+          "baixar",
+          "app",
+          "ellipse",
+          "close",
+          "rectangle",
+          "image",
+          "baixe",
+          "nosso",
+          "ganhe",
+          "super",
+          "mios",
+          "地球仪",
+          "earth",
+          "logo",
+          "button",
+          "entrar",
+          "registrar"
+        ],
+        "summary": "Section \"下载+头部\", type: frame, depth: 6, nodes: 25, 4 text elements, 3 instances, 4 image placeholders, 2 button-like elements"
+      }
+    },
+    {
+      "sectionId": "section_2_16180_33185",
+      "figmaNodeId": "16180:33185",
+      "figmaPath": "轮播",
+      "figmaName": "轮播",
+      "figmaType": "frame",
+      "fingerprint": {
+        "depth": 3,
+        "nodeCount": 9,
+        "childCount": 2,
+        "counts": {
+          "frame": 3,
+          "rounded-rectangle": 6
+        },
+        "hasText": false,
+        "textCount": 0,
+        "hasIntance": false,
+        "instanceCount": 0,
+        "haskImagesLike": true,
+        "imageLikeCount": 6,
+        "hasButtonLike": false,
+        "buttonLikeCount": 0,
+        "bbox": [
+          12,
+          116,
+          366,
+          170
+        ],
+        "keywords": [
+          "轮播",
+          "ebeb",
+          "abbf",
+          "image"
+        ],
+        "summary": "Section \"轮播\", type: frame, depth: 3, nodes: 9, 6 image placeholders"
+      }
+    },
+    {
+      "sectionId": "section_3_16180_33210",
+      "figmaNodeId": "16180:33210",
+      "figmaPath": "厂商 tab",
+      "figmaName": "厂商 tab",
+      "figmaType": "frame",
+      "fingerprint": {
+        "depth": 4,
+        "nodeCount": 14,
+        "childCount": 5,
+        "counts": {
+          "frame": 8,
+          "instance": 4,
+          "text": 2
+        },
+        "hasText": true,
+        "textCount": 2,
+        "hasIntance": true,
+        "instanceCount": 4,
+        "haskImagesLike": false,
+        "imageLikeCount": 0,
+        "hasButtonLike": false,
+        "buttonLikeCount": 0,
+        "bbox": [
+          12,
+          302,
+          366,
+          92
+        ],
+        "keywords": [
+          "厂商",
+          "tab",
+          "frame",
+          "按钮背景",
+          "game",
+          "popular",
+          "单色",
+          "fachai"
+        ],
+        "summary": "Section \"厂商 tab\", type: frame, depth: 4, nodes: 14, 2 text elements, 4 instances"
+      }
+    },
+    {
+      "sectionId": "section_4_16180_33236",
+      "figmaNodeId": "16180:33236",
+      "figmaPath": "公告搜索",
+      "figmaName": "公告搜索",
+      "figmaType": "frame",
+      "fingerprint": {
+        "depth": 4,
+        "nodeCount": 7,
+        "childCount": 2,
+        "counts": {
+          "frame": 4,
+          "instance": 2,
+          "text": 1
+        },
+        "hasText": true,
+        "textCount": 1,
+        "hasIntance": true,
+        "instanceCount": 2,
+        "haskImagesLike": false,
+        "imageLikeCount": 0,
+        "hasButtonLike": false,
+        "buttonLikeCount": 0,
+        "bbox": [
+          12,
+          410,
+          366,
+          70
+        ],
+        "keywords": [
+          "公告搜索",
+          "notice",
+          "frame",
+          "提示扩散红点",
+          "prezados",
+          "clientes",
+          "search",
+          "find"
+        ],
+        "summary": "Section \"公告搜索\", type: frame, depth: 4, nodes: 7, 1 text elements, 2 instances"
+      }
+    },
+    {
+      "sectionId": "section_5_16180_33244",
+      "figmaNodeId": "16180:33244",
+      "figmaPath": "_营销图轮播",
+      "figmaName": "_营销图轮播",
+      "figmaType": "instance",
+      "fingerprint": {
+        "depth": 1,
+        "nodeCount": 1,
+        "childCount": 0,
+        "counts": {
+          "instance": 1
+        },
+        "hasText": false,
+        "textCount": 0,
+        "hasIntance": true,
+        "instanceCount": 1,
+        "haskImagesLike": false,
+        "imageLikeCount": 0,
+        "hasButtonLike": false,
+        "buttonLikeCount": 0,
+        "bbox": [
+          12,
+          496,
+          366,
+          124
+        ],
+        "keywords": [
+          "营销图轮播"
+        ],
+        "summary": "Section \"_营销图轮播\", type: instance, depth: 1, nodes: 1, 1 instances"
+      }
+    },
+    {
+      "sectionId": "section_6_16180_33380",
+      "figmaNodeId": "16180:33380",
+      "figmaPath": "排行榜",
+      "figmaName": "排行榜",
+      "figmaType": "frame",
+      "fingerprint": {
+        "depth": 2,
+        "nodeCount": 13,
+        "childCount": 12,
+        "counts": {
+          "frame": 6,
+          "vector": 4,
+          "text": 3
+        },
+        "hasText": true,
+        "textCount": 3,
+        "hasIntance": false,
+        "instanceCount": 0,
+        "haskImagesLike": false,
+        "imageLikeCount": 0,
+        "hasButtonLike": false,
+        "buttonLikeCount": 0,
+        "bbox": [
+          0,
+          3659.178466796875,
+          390,
+          652
+        ],
+        "keywords": [
+          "排行榜",
+          "背景",
+          "高光",
+          "底纹",
+          "frame",
+          "rank",
+          "usu",
+          "rio",
+          "comiss",
+          "title",
+          "icon",
+          "vector"
+        ],
+        "summary": "Section \"排行榜\", type: frame, depth: 2, nodes: 13, 3 text elements"
+      }
+    },
+    {
+      "sectionId": "section_7_16180_33495",
+      "figmaNodeId": "16180:33495",
+      "figmaPath": "游戏盒子",
+      "figmaName": "游戏盒子",
+      "figmaType": "frame",
+      "fingerprint": {
+        "depth": 2,
+        "nodeCount": 4,
+        "childCount": 3,
+        "counts": {
+          "frame": 3,
+          "instance": 1
+        },
+        "hasText": false,
+        "textCount": 0,
+        "hasIntance": true,
+        "instanceCount": 1,
+        "haskImagesLike": false,
+        "imageLikeCount": 0,
+        "hasButtonLike": false,
+        "buttonLikeCount": 0,
+        "bbox": [
+          12,
+          4327.1787109375,
+          366,
+          386
+        ],
+        "keywords": [
+          "游戏盒子",
+          "title",
+          "game",
+          "cover",
+          "more"
+        ],
+        "summary": "Section \"游戏盒子\", type: frame, depth: 2, nodes: 4, 1 instances"
+      }
+    },
+    {
+      "sectionId": "section_8_16180_33517",
+      "figmaNodeId": "16180:33517",
+      "figmaPath": "视频 合作 下载",
+      "figmaName": "视频 合作 下载",
+      "figmaType": "frame",
+      "fingerprint": {
+        "depth": 2,
+        "nodeCount": 5,
+        "childCount": 4,
+        "counts": {
+          "frame": 5
+        },
+        "hasText": false,
+        "textCount": 0,
+        "hasIntance": false,
+        "instanceCount": 0,
+        "haskImagesLike": false,
+        "imageLikeCount": 0,
+        "hasButtonLike": false,
+        "buttonLikeCount": 0,
+        "bbox": [
+          0,
+          4729.1787109375,
+          390,
+          968
+        ],
+        "keywords": [
+          "视频",
+          "合作",
+          "下载",
+          "video",
+          "厂商",
+          "充值",
+          "down",
+          "card"
+        ],
+        "summary": "Section \"视频 合作 下载\", type: frame, depth: 2, nodes: 5"
+      }
+    },
+    {
+      "sectionId": "section_9_16180_33670",
+      "figmaNodeId": "16180:33670",
+      "figmaPath": "底部信息",
+      "figmaName": "底部信息",
+      "figmaType": "frame",
+      "fingerprint": {
+        "depth": 2,
+        "nodeCount": 8,
+        "childCount": 7,
+        "counts": {
+          "frame": 7,
+          "instance": 1
+        },
+        "hasText": false,
+        "textCount": 0,
+        "hasIntance": true,
+        "instanceCount": 1,
+        "haskImagesLike": false,
+        "imageLikeCount": 0,
+        "hasButtonLike": false,
+        "buttonLikeCount": 0,
+        "bbox": [
+          -0.5,
+          5713.1787109375,
+          391,
+          659
+        ],
+        "keywords": [
+          "底部信息",
+          "logo",
+          "frame",
+          "客服"
+        ],
+        "summary": "Section \"底部信息\", type: frame, depth: 2, nodes: 8, 1 instances"
+      }
+    },
+    {
+      "sectionId": "section_10_16180_33731",
+      "figmaNodeId": "16180:33731",
+      "figmaPath": "_tab bar",
+      "figmaName": "_tab bar",
+      "figmaType": "instance",
+      "fingerprint": {
+        "depth": 1,
+        "nodeCount": 1,
+        "childCount": 0,
+        "counts": {
+          "instance": 1
+        },
+        "hasText": false,
+        "textCount": 0,
+        "hasIntance": true,
+        "instanceCount": 1,
+        "haskImagesLike": false,
+        "imageLikeCount": 0,
+        "hasButtonLike": false,
+        "buttonLikeCount": 0,
+        "bbox": [
+          0,
+          6316,
+          390,
+          56
+        ],
+        "keywords": [
+          "tab",
+          "bar"
+        ],
+        "summary": "Section \"_tab bar\", type: instance, depth: 1, nodes: 1, 1 instances"
+      }
+    }
+  ]
+}

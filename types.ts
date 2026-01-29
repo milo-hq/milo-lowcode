@@ -104,7 +104,6 @@ interface LocalComponentNode {
 /** 一套皮肤的对齐样本（训练/检索的最小单元） */
 interface SkinAlignmentSample {
   skinId: string;
-
   // Figma
   figmaFrameName: string;
   figmaFrameId?: ID;
