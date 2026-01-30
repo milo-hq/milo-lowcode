@@ -1,0 +1,293 @@
+{
+  "skinId": "36",
+  "localRoot": {
+    "componentName": "inicio",
+    "componentId": 36,
+    "position": "page",
+    "children": [
+      {
+        "componentName": "header",
+        "componentId": 1,
+        "position": "header",
+        "children": [
+          {
+            "componentName": "pwa_HeaderBar",
+            "componentId": 1
+          },
+          {
+            "componentName": "tabbar_layout_toolbar",
+            "componentId": 1,
+            "slot": "toolbar",
+            "children": [
+              {
+                "componentName": "tabbar_inicio_HeaderBar_logo",
+                "componentId": 1,
+                "slot": "start",
+                "layoutType": "layout1"
+              },
+              {
+                "componentName": "tabbar_inicio_HeaderBar_languageButton",
+                "componentId": 1,
+                "slot": "end",
+                "layoutType": "layout36"
+              },
+              {
+                "componentName": "tabbar_inicio_HeaderBar_assets",
+                "componentId": 1,
+                "slot": "end"
+              },
+              {
+                "componentName": "tabbar_inicio_HeaderBar_buttonWrap",
+                "componentId": 1,
+                "slot": "end",
+                "layoutType": "layout1",
+                "children": [
+                  {
+                    "componentName": "tabbar_inicio_loginButton",
+                    "componentId": 1
+                  },
+                  {
+                    "componentName": "tabbar_inicio_HeaderBar_registerButton",
+                    "componentId": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "componentName": "content",
+        "componentId": 1,
+        "position": "content",
+        "children": [
+          {
+            "componentName": "tabbar_inicio_SwiperView",
+            "componentId": 1,
+            "slot": "轮播"
+          },
+          {
+            "componentName": "tabbar_inicio_Segment",
+            "componentId": 1,
+            "slot": "厂商tab",
+            "children": [
+              {
+                "componentName": "tabbar_inicio_Segment_segmentLayout",
+                "componentId": 2,
+                "children": [
+                  {
+                    "componentName": "tabbar_inicio_Segment_nav",
+                    "componentId": 36,
+                    "layoutType": "layout36"
+                  }
+                ]
+              },
+              {
+                "componentName": "tabbar_inicio_Segment_segmentLayout",
+                "componentId": 4,
+                "children": [
+                  {
+                    "componentName": "tabbar_inicio_Segment_nav",
+                    "componentId": 36
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "componentName": "tabbar_inicio_MarqueeView",
+            "componentId": 1,
+            "slot": "公告搜索",
+            "children": [
+              {
+                "componentName": "tabbar_inicio_MarqueeView_marquee",
+                "componentId": 36
+              },
+              {
+                "componentName": "tabbar_inicio_iconButton",
+                "componentId": 1,
+                "slot": "search"
+              }
+            ]
+          },
+          {
+            "componentName": "tabbar_inicio_ActivityBar_custom",
+            "componentId": 1,
+            "slot": "营销图轮播"
+          },
+          {
+            "componentName": "tabbar_inicio_GameWrapper",
+            "componentId": 25,
+            "slot": "hot",
+            "layoutType": "layout36",
+            "children": [
+              {
+                "componentName": "tabbar_inicio_GameWrapper_Wrapper",
+                "componentId": 2,
+                "children": [
+                  {
+                    "componentName": "tabbar_inicio_GameWrapper_WrapperHead",
+                    "componentId": 1,
+                    "slot": "title"
+                  },
+                  {
+                    "componentName": "tabbar_inicio_GameBarCard",
+                    "componentId": 1,
+                    "layoutType": "layout36",
+                    "children": [
+                      {
+                        "componentName": "BonusPool",
+                        "componentId": 36,
+                        "slot": "jackpot"
+                      }
+                    ]
+                  },
+                  {
+                    "componentName": "tabbar_inicio_GameWrapper_GameContent",
+                    "componentId": 1,
+                    "slot": "自定义卡片"
+                  },
+                  {
+                    "componentName": "tabbar_inicio_GameWrapper_ShowAll",
+                    "componentId": 36
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "componentName": "tabbar_inicio_GameWrapper",
+            "componentId": 25,
+            "slot": "游戏盒子",
+            "children": [
+              {
+                "componentName": "tabbar_inicio_GameWrapper_Wrapper",
+                "componentId": 2,
+                "children": [
+                  {
+                    "componentName": "tabbar_inicio_GameWrapper_WrapperHead",
+                    "componentId": 1
+                  },
+                  {
+                    "componentName": "tabbar_inicio_GameWrapper_GameContent",
+                    "componentId": 1
+                  },
+                  {
+                    "componentName": "tabbar_inicio_GameWrapper_ShowAll",
+                    "componentId": 36
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "componentName": "tabbar_inicio_Ranking",
+            "componentId": 1,
+            "slot": "排行榜",
+            "layoutType": "layout36"
+          },
+          {
+            "componentName": "tabbar_inicio_video",
+            "componentId": 1,
+            "slot": "video",
+            "layoutType": "layout2"
+          },
+          {
+            "componentName": "tabbar_inicio_PartView_gamePlatform",
+            "componentId": 36,
+            "slot": "厂商"
+          },
+          {
+            "componentName": "tabbar_inicio_PartView_paymentPartner",
+            "componentId": 36,
+            "slot": "充值"
+          },
+          {
+            "componentName": "tabbar_layout_contentBox",
+            "componentId": 1,
+            "slot": "down_card",
+            "layoutType": "layout2",
+            "children": [
+              {
+                "componentName": "tabbar_inicio_AppInstall_introduction",
+                "componentId": 36
+              },
+              {
+                "componentName": "tabbar_inicio_AppInstall",
+                "componentId": 36
+              }
+            ]
+          },
+          {
+            "componentName": "tabbar_layout_contentBox",
+            "componentId": 1,
+            "slot": "底部信息_partner",
+            "layoutType": "layout2",
+            "children": [
+              {
+                "componentName": "tabbar_inicio_FooterContent_badge",
+                "componentId": 36
+              },
+              {
+                "componentName": "tabbar_inicio_FooterContent_introduction",
+                "componentId": 1
+              }
+            ]
+          },
+          {
+            "componentName": "tabbar_inicio_FooterContent",
+            "componentId": 1,
+            "slot": "底部信息",
+            "children": [
+              {
+                "componentName": "tabbar_layout_contentBox",
+                "componentId": 1,
+                "children": [
+                  {
+                    "componentName": "lazyImages",
+                    "componentId": 1
+                  }
+                ]
+              },
+              {
+                "componentName": "tabbar_inicio_FooterContent_version",
+                "componentId": 1
+              },
+              {
+                "componentName": "tabbar_inicio_FooterContent_age18",
+                "componentId": 36
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "componentName": "tabs",
+        "componentId": 1,
+        "position": "tabs",
+        "children": [
+          {
+            "componentName": "tabbar_tabBar",
+            "componentId": 3,
+            "slot": "_tab_bar",
+            "layoutType": "layout36",
+            "children": [
+              {
+                "componentName": "tabbar_tabBar_tabItem",
+                "componentId": 36
+              },
+              {
+                "componentName": "tabbar_tabBar_topTab",
+                "componentId": 25
+              },
+              {
+                "componentName": "tabbar_tabBar_flexibleTab",
+                "componentId": 36
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

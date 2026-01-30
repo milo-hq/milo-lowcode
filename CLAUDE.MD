@@ -5,7 +5,7 @@
 
 ### 主项目关联
 主项目为
-假设 appdir = /Users/huangqin/Documents/GitHub/star/app
+假设 appdir = /Users/arthur/Documents/GitHub/star/app
 那么其中皮肤相关配置在  appdir/src/theme
 每套皮肤的具体配置数据在 appdir/src/theme/configuration 中
 

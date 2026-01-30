@@ -1,0 +1,398 @@
+{
+  "skinId": "chalcedony_green_34",
+  "frameId": "9163:26929",
+  "frameName": "首页全尺寸-游戏类型",
+  "root": {
+    "id": "9163:26929",
+    "name": "首页全尺寸-游戏类型",
+    "type": "frame",
+    "bbox": [
+      -3044.0,
+      -7036.0,
+      390.0,
+      5144.11181640625
+    ],
+    "children": [
+      {
+        "id": "12820:34779",
+        "name": "顶部",
+        "type": "frame",
+        "bbox": [
+          0.0,
+          0.0,
+          390.0,
+          100.0
+        ],
+        "children": [
+          {
+            "id": "9163:26949",
+            "name": "顶部下载提示",
+            "type": "frame",
+            "bbox": [
+              0.0,
+              0.0,
+              390.0,
+              50.0
+            ]
+          },
+          {
+            "id": "9163:26930",
+            "name": "头部",
+            "type": "frame",
+            "bbox": [
+              0.0,
+              50.0,
+              390.0,
+              50.0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9163:27007",
+        "name": "上部",
+        "type": "frame",
+        "bbox": [
+          0.0,
+          113.0,
+          390.0,
+          488.0
+        ],
+        "children": [
+          {
+            "id": "9163:27008",
+            "name": "banner区域",
+            "type": "frame",
+            "bbox": [
+              10.0,
+              0.0,
+              370.0,
+              292.0
+            ]
+          },
+          {
+            "id": "9163:27067",
+            "name": "Frame 2131331756",
+            "type": "frame",
+            "bbox": [
+              12.0,
+              302.0,
+              366.0,
+              68.0
+            ]
+          },
+          {
+            "id": "9163:27101",
+            "name": "公告+搜索",
+            "type": "frame",
+            "bbox": [
+              11.5,
+              380.0,
+              367.0,
+              40.0
+            ]
+          },
+          {
+            "id": "9163:27131",
+            "name": "切换tab",
+            "type": "frame",
+            "bbox": [
+              0.0,
+              430.0,
+              390.0,
+              58.0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9163:27151",
+        "name": "中部",
+        "type": "frame",
+        "bbox": [
+          0.0,
+          614.0,
+          390.0,
+          3467.11181640625
+        ],
+        "children": [
+          {
+            "id": "9163:27332",
+            "name": "Frame 2131330995",
+            "type": "frame",
+            "bbox": [
+              10.0,
+              957.1117553710938,
+              370.0,
+              120.0
+            ]
+          },
+          {
+            "id": "9212:27483",
+            "name": "Frame 2131331015",
+            "type": "frame",
+            "bbox": [
+              0.0,
+              1097.11181640625,
+              390.0,
+              537.88818359375
+            ]
+          },
+          {
+            "id": "9163:27554",
+            "name": "Frame 2131331734",
+            "type": "frame",
+            "bbox": [
+              11.5,
+              2133.555908203125,
+              367.0,
+              142.0
+            ]
+          },
+          {
+            "id": "9163:27585",
+            "name": "Group 2131331001",
+            "type": "frame",
+            "bbox": [
+              0.0,
+              2295.555908203125,
+              390.0,
+              214.4443359375
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9163:27770",
+        "name": "尾部",
+        "type": "frame",
+        "bbox": [
+          0.0,
+          4094.11181640625,
+          390.0,
+          971.0
+        ],
+        "children": [
+          {
+            "id": "9163:27771",
+            "name": "下载app",
+            "type": "frame",
+            "bbox": [
+              12.0,
+              0.0,
+              366.0,
+              187.0
+            ]
+          },
+          {
+            "id": "9163:27799",
+            "name": "底部",
+            "type": "frame",
+            "bbox": [
+              0.0,
+              207.0,
+              390.0,
+              764.0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9163:26967",
+        "name": "底部导航栏",
+        "type": "frame",
+        "bbox": [
+          0.0,
+          5078.11181640625,
+          390.0,
+          66.0
+        ],
+        "children": [
+          {
+            "id": "9163:26968",
+            "name": "Frame 1410103155",
+            "type": "frame",
+            "bbox": [
+              0.0,
+              10.0,
+              58.0,
+              46.0
+            ]
+          },
+          {
+            "id": "9163:26975",
+            "name": "Frame 1410103156",
+            "type": "frame",
+            "bbox": [
+              83.0,
+              10.0,
+              58.0,
+              46.0
+            ]
+          },
+          {
+            "id": "9163:26988",
+            "name": "Frame 1410103157",
+            "type": "frame",
+            "bbox": [
+              166.0,
+              10.0,
+              58.0,
+              46.0
+            ]
+          },
+          {
+            "id": "9163:26994",
+            "name": "Frame 1410103158",
+            "type": "frame",
+            "bbox": [
+              249.0,
+              10.0,
+              58.0,
+              46.0
+            ]
+          },
+          {
+            "id": "9163:27001",
+            "name": "Frame 1410103159",
+            "type": "frame",
+            "bbox": [
+              332.0,
+              10.0,
+              58.0,
+              46.0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9215:27351",
+        "name": "置顶按钮",
+        "type": "frame",
+        "bbox": [
+          5.0,
+          5069.0,
+          54.0,
+          54.0
+        ],
+        "children": [
+          {
+            "id": "9215:27354",
+            "name": "Frame 2131331774",
+            "type": "frame",
+            "bbox": [
+              15.0,
+              4.0,
+              24.0,
+              46.0
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "sectionId": "section_0_12820_34779",
+      "figmaNodeId": "12820:34779",
+      "figmaPath": "顶部",
+      "figmaName": "顶部",
+      "figmaType": "frame",
+      "fingerprint": {
+        "nodeCount": 35,
+        "bbox": [
+          0.0,
+          0.0,
+          390.0,
+          100.0
+        ],
+        "summary": "Section \"顶部\", type: frame, depth: 1, nodes: 35, 6 text elements, 3 instances, 4 image placeholders"
+      }
+    },
+    {
+      "sectionId": "section_1_9163_27007",
+      "figmaNodeId": "9163:27007",
+      "figmaPath": "上部",
+      "figmaName": "上部",
+      "figmaType": "frame",
+      "fingerprint": {
+        "nodeCount": 78,
+        "bbox": [
+          0.0,
+          113.0,
+          390.0,
+          488.0
+        ],
+        "summary": "Section \"上部\", type: frame, depth: 1, nodes: 78, 16 text elements, 7 instances, 20 image placeholders"
+      }
+    },
+    {
+      "sectionId": "section_2_9163_27151",
+      "figmaNodeId": "9163:27151",
+      "figmaPath": "中部",
+      "figmaName": "中部",
+      "figmaType": "frame",
+      "fingerprint": {
+        "nodeCount": 568,
+        "bbox": [
+          0.0,
+          614.0,
+          390.0,
+          3467.11181640625
+        ],
+        "summary": "Section \"中部\", type: frame, depth: 1, nodes: 568, 109 text elements, 83 instances, 205 image placeholders"
+      }
+    },
+    {
+      "sectionId": "section_3_9163_27770",
+      "figmaNodeId": "9163:27770",
+      "figmaPath": "尾部",
+      "figmaName": "尾部",
+      "figmaType": "frame",
+      "fingerprint": {
+        "nodeCount": 70,
+        "bbox": [
+          0.0,
+          4094.11181640625,
+          390.0,
+          971.0
+        ],
+        "summary": "Section \"尾部\", type: frame, depth: 1, nodes: 70, 14 text elements, 12 instances, 5 image placeholders"
+      }
+    },
+    {
+      "sectionId": "section_4_9163_26967",
+      "figmaNodeId": "9163:26967",
+      "figmaPath": "底部导航栏",
+      "figmaName": "底部导航栏",
+      "figmaType": "frame",
+      "fingerprint": {
+        "nodeCount": 16,
+        "bbox": [
+          0.0,
+          5078.11181640625,
+          390.0,
+          66.0
+        ],
+        "summary": "Section \"底部导航栏\", type: frame, depth: 1, nodes: 16, 5 text elements"
+      }
+    },
+    {
+      "sectionId": "section_5_9215_27351",
+      "figmaNodeId": "9215:27351",
+      "figmaPath": "置顶按钮",
+      "figmaName": "置顶按钮",
+      "figmaType": "frame",
+      "fingerprint": {
+        "nodeCount": 4,
+        "bbox": [
+          5.0,
+          5069.0,
+          54.0,
+          54.0
+        ],
+        "summary": "Section \"置顶按钮\", type: frame, depth: 1, nodes: 4, 1 text elements"
+      }
+    }
+  ]
+}

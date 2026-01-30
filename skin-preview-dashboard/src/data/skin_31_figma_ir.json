@@ -1,0 +1,450 @@
+{
+  "skinId": "regal_blue_31",
+  "frameId": "10006:32606",
+  "frameName": "首页全尺寸-游戏类型",
+  "root": {
+    "id": "10006:32606",
+    "name": "首页全尺寸-游戏类型",
+    "type": "frame",
+    "bbox": [
+      -2517.0,
+      -6740.0,
+      390.0,
+      5414.0
+    ],
+    "children": [
+      {
+        "id": "10010:32461",
+        "name": "背景底纹",
+        "type": "frame",
+        "bbox": [
+          108.5,
+          150.0,
+          173.0,
+          537.0
+        ],
+        "children": [
+          {
+            "id": "10010:32457",
+            "name": "Rectangle 36436",
+            "type": "rounded-rectangle",
+            "bbox": [
+              108.5,
+              150.0,
+              173.0,
+              537.0
+            ]
+          },
+          {
+            "id": "10010:32459",
+            "name": "image 1116",
+            "type": "rounded-rectangle",
+            "bbox": [
+              -280.5,
+              18.0,
+              950.414794921875,
+              715.6876220703125
+            ]
+          },
+          {
+            "id": "10010:32463",
+            "name": "image 1117",
+            "type": "rounded-rectangle",
+            "bbox": [
+              -115.5,
+              -24.0,
+              884.0,
+              884.0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "12711:39044",
+        "name": "顶部",
+        "type": "frame",
+        "bbox": [
+          0.0,
+          0.0,
+          390.0,
+          100.0
+        ],
+        "children": [
+          {
+            "id": "10011:32589",
+            "name": "下载",
+            "type": "frame",
+            "bbox": [
+              0.0,
+              0.0,
+              390.0,
+              50.0
+            ]
+          },
+          {
+            "id": "10109:34065",
+            "name": "_头部",
+            "type": "symbol",
+            "bbox": [
+              0.0,
+              50.0,
+              390.0,
+              50.0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "10058:33953",
+        "name": "登录注册",
+        "type": "frame",
+        "bbox": [
+          20.0,
+          124.0,
+          350.0,
+          60.0
+        ]
+      },
+      {
+        "id": "10011:32585",
+        "name": "轮播 bak",
+        "type": "frame",
+        "bbox": [
+          12.0,
+          208.0,
+          366.0,
+          228.0
+        ]
+      },
+      {
+        "id": "10036:78502",
+        "name": "公告+搜索",
+        "type": "frame",
+        "bbox": [
+          11.5,
+          460.0,
+          367.0,
+          40.0
+        ]
+      },
+      {
+        "id": "12711:39293",
+        "name": "_营销图轮播",
+        "type": "instance",
+        "bbox": [
+          12.0,
+          524.0,
+          366.0,
+          124.0
+        ]
+      },
+      {
+        "id": "10043:32515",
+        "name": "jackpot",
+        "type": "frame",
+        "bbox": [
+          12.0,
+          672.0,
+          366.0,
+          100.0
+        ]
+      },
+      {
+        "id": "10047:32484",
+        "name": "_游戏类型",
+        "type": "instance",
+        "bbox": [
+          -109.0,
+          796.0,
+          608.0,
+          80.0
+        ]
+      },
+      {
+        "id": "10047:33558",
+        "name": "rank",
+        "type": "frame",
+        "bbox": [
+          12.0,
+          2634.0,
+          366.0,
+          617.0
+        ]
+      },
+      {
+        "id": "10049:34801",
+        "name": "video",
+        "type": "frame",
+        "bbox": [
+          12.0,
+          3275.0,
+          366.0,
+          180.0
+        ]
+      },
+      {
+        "id": "12711:39055",
+        "name": "Frame 2131331777",
+        "type": "frame",
+        "bbox": [
+          -0.5,
+          4057.0,
+          391.0,
+          1357.0
+        ],
+        "children": [
+          {
+            "id": "10057:33386",
+            "name": "厂商 展示",
+            "type": "frame",
+            "bbox": [
+              0.0,
+              0.0,
+              391.0,
+              278.0
+            ]
+          },
+          {
+            "id": "10057:33387",
+            "name": "充值 展示",
+            "type": "frame",
+            "bbox": [
+              12.5,
+              320.0,
+              366.0,
+              124.0
+            ]
+          },
+          {
+            "id": "10050:32899",
+            "name": "底部信息",
+            "type": "frame",
+            "bbox": [
+              0.0,
+              486.0,
+              391.0,
+              871.0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "10050:32991",
+        "name": "tab bar",
+        "type": "instance",
+        "bbox": [
+          0.0,
+          5358.0,
+          390.0,
+          66.0
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "sectionId": "section_0_10010_32461",
+      "figmaNodeId": "10010:32461",
+      "figmaPath": "背景底纹",
+      "figmaName": "背景底纹",
+      "figmaType": "frame",
+      "fingerprint": {
+        "nodeCount": 4,
+        "bbox": [
+          108.5,
+          150.0,
+          173.0,
+          537.0
+        ],
+        "summary": "Section \"背景底纹\", type: frame, depth: 1, nodes: 4, 3 image placeholders"
+      }
+    },
+    {
+      "sectionId": "section_1_12711_39044",
+      "figmaNodeId": "12711:39044",
+      "figmaPath": "顶部",
+      "figmaName": "顶部",
+      "figmaType": "frame",
+      "fingerprint": {
+        "nodeCount": 3,
+        "bbox": [
+          0.0,
+          0.0,
+          390.0,
+          100.0
+        ],
+        "summary": "Section \"顶部\", type: frame, depth: 1, nodes: 3"
+      }
+    },
+    {
+      "sectionId": "section_2_10058_33953",
+      "figmaNodeId": "10058:33953",
+      "figmaPath": "登录注册",
+      "figmaName": "登录注册",
+      "figmaType": "frame",
+      "fingerprint": {
+        "nodeCount": 1,
+        "bbox": [
+          20.0,
+          124.0,
+          350.0,
+          60.0
+        ],
+        "summary": "Section \"登录注册\", type: frame, depth: 1, nodes: 1"
+      }
+    },
+    {
+      "sectionId": "section_3_10011_32585",
+      "figmaNodeId": "10011:32585",
+      "figmaPath": "轮播 bak",
+      "figmaName": "轮播 bak",
+      "figmaType": "frame",
+      "fingerprint": {
+        "nodeCount": 1,
+        "bbox": [
+          12.0,
+          208.0,
+          366.0,
+          228.0
+        ],
+        "summary": "Section \"轮播 bak\", type: frame, depth: 1, nodes: 1"
+      }
+    },
+    {
+      "sectionId": "section_4_10036_78502",
+      "figmaNodeId": "10036:78502",
+      "figmaPath": "公告+搜索",
+      "figmaName": "公告+搜索",
+      "figmaType": "frame",
+      "fingerprint": {
+        "nodeCount": 1,
+        "bbox": [
+          11.5,
+          460.0,
+          367.0,
+          40.0
+        ],
+        "summary": "Section \"公告+搜索\", type: frame, depth: 1, nodes: 1"
+      }
+    },
+    {
+      "sectionId": "section_5_12711_39293",
+      "figmaNodeId": "12711:39293",
+      "figmaPath": "_营销图轮播",
+      "figmaName": "_营销图轮播",
+      "figmaType": "instance",
+      "fingerprint": {
+        "nodeCount": 1,
+        "bbox": [
+          12.0,
+          524.0,
+          366.0,
+          124.0
+        ],
+        "summary": "Section \"_营销图轮播\", type: instance, depth: 1, nodes: 1, 1 instances"
+      }
+    },
+    {
+      "sectionId": "section_6_10043_32515",
+      "figmaNodeId": "10043:32515",
+      "figmaPath": "jackpot",
+      "figmaName": "jackpot",
+      "figmaType": "frame",
+      "fingerprint": {
+        "nodeCount": 1,
+        "bbox": [
+          12.0,
+          672.0,
+          366.0,
+          100.0
+        ],
+        "summary": "Section \"jackpot\", type: frame, depth: 1, nodes: 1"
+      }
+    },
+    {
+      "sectionId": "section_7_10047_32484",
+      "figmaNodeId": "10047:32484",
+      "figmaPath": "_游戏类型",
+      "figmaName": "_游戏类型",
+      "figmaType": "instance",
+      "fingerprint": {
+        "nodeCount": 1,
+        "bbox": [
+          -109.0,
+          796.0,
+          608.0,
+          80.0
+        ],
+        "summary": "Section \"_游戏类型\", type: instance, depth: 1, nodes: 1, 1 instances"
+      }
+    },
+    {
+      "sectionId": "section_11_10047_33558",
+      "figmaNodeId": "10047:33558",
+      "figmaPath": "rank",
+      "figmaName": "rank",
+      "figmaType": "frame",
+      "fingerprint": {
+        "nodeCount": 1,
+        "bbox": [
+          12.0,
+          2634.0,
+          366.0,
+          617.0
+        ],
+        "summary": "Section \"rank\", type: frame, depth: 1, nodes: 1"
+      }
+    },
+    {
+      "sectionId": "section_12_10049_34801",
+      "figmaNodeId": "10049:34801",
+      "figmaPath": "video",
+      "figmaName": "video",
+      "figmaType": "frame",
+      "fingerprint": {
+        "nodeCount": 1,
+        "bbox": [
+          12.0,
+          3275.0,
+          366.0,
+          180.0
+        ],
+        "summary": "Section \"video\", type: frame, depth: 1, nodes: 1"
+      }
+    },
+    {
+      "sectionId": "section_14_12711_39055",
+      "figmaNodeId": "12711:39055",
+      "figmaPath": "Frame 2131331777",
+      "figmaName": "Frame 2131331777",
+      "figmaType": "frame",
+      "fingerprint": {
+        "nodeCount": 4,
+        "bbox": [
+          -0.5,
+          4057.0,
+          391.0,
+          1357.0
+        ],
+        "summary": "Section \"Frame 2131331777\", type: frame, depth: 1, nodes: 4"
+      }
+    },
+    {
+      "sectionId": "section_15_10050_32991",
+      "figmaNodeId": "10050:32991",
+      "figmaPath": "tab bar",
+      "figmaName": "tab bar",
+      "figmaType": "instance",
+      "fingerprint": {
+        "nodeCount": 1,
+        "bbox": [
+          0.0,
+          5358.0,
+          390.0,
+          66.0
+        ],
+        "summary": "Section \"tab bar\", type: instance, depth: 1, nodes: 1, 1 instances"
+      }
+    }
+  ]
+}

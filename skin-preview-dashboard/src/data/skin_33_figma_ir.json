@@ -1,0 +1,212 @@
+{
+  "skinId": "broken_ice_blue_33",
+  "frameId": "17174:35008",
+  "frameName": "首页全尺寸",
+  "root": {
+    "id": "17174:35008",
+    "name": "首页全尺寸",
+    "type": "frame",
+    "bbox": [
+      -2738.0,
+      -6649.0,
+      390.0,
+      4376.0
+    ],
+    "children": [
+      {
+        "id": "17174:35007",
+        "name": "头部",
+        "type": "frame",
+        "bbox": [
+          0.0,
+          0.0,
+          390.0,
+          304.0
+        ],
+        "children": [
+          {
+            "id": "17167:35032",
+            "name": "头部",
+            "type": "frame",
+            "bbox": [
+              0.0,
+              0.0,
+              390.0,
+              100.0
+            ]
+          },
+          {
+            "id": "12001:33085",
+            "name": "首图",
+            "type": "frame",
+            "bbox": [
+              12.0,
+              114.0,
+              366.0,
+              140.0
+            ]
+          },
+          {
+            "id": "12001:34159",
+            "name": "跑马灯",
+            "type": "frame",
+            "bbox": [
+              12.0,
+              268.0,
+              366.0,
+              36.0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "12001:33092",
+        "name": "内容",
+        "type": "frame",
+        "bbox": [
+          0.0,
+          318.0,
+          390.0,
+          4058.0
+        ],
+        "children": [
+          {
+            "id": "12001:33093",
+            "name": "banner",
+            "type": "frame",
+            "bbox": [
+              12.0,
+              0.0,
+              366.0,
+              162.0
+            ]
+          },
+          {
+            "id": "12001:33370",
+            "name": "个人资料+管理中心",
+            "type": "frame",
+            "bbox": [
+              12.0,
+              176.0,
+              366.0,
+              168.0
+            ]
+          },
+          {
+            "id": "17220:35557",
+            "name": "_热门游戏",
+            "type": "instance",
+            "bbox": [
+              12.0,
+              358.0,
+              366.0,
+              150.0
+            ]
+          },
+          {
+            "id": "17226:35492",
+            "name": "_自定义卡片",
+            "type": "instance",
+            "bbox": [
+              15.0,
+              522.0,
+              360.0,
+              190.0
+            ]
+          },
+          {
+            "id": "12001:33488",
+            "name": "游戏分类",
+            "type": "frame",
+            "bbox": [
+              0.0,
+              726.0,
+              390.0,
+              1363.0
+            ]
+          },
+          {
+            "id": "12001:33871",
+            "name": "排行榜",
+            "type": "frame",
+            "bbox": [
+              0.0,
+              2103.0,
+              390.0,
+              589.0
+            ]
+          },
+          {
+            "id": "16110:32167",
+            "name": "视频",
+            "type": "frame",
+            "bbox": [
+              0.0,
+              2706.0,
+              390.0,
+              220.0
+            ]
+          },
+          {
+            "id": "16027:34792",
+            "name": "底部厂商-巴西",
+            "type": "frame",
+            "bbox": [
+              0.0,
+              2940.0,
+              390.0,
+              114.0
+            ]
+          },
+          {
+            "id": "12001:34003",
+            "name": "底部信息",
+            "type": "frame",
+            "bbox": [
+              0.0,
+              3068.0,
+              390.0,
+              990.0
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "sectionId": "section_0_17174_35007",
+      "figmaNodeId": "17174:35007",
+      "figmaPath": "头部",
+      "figmaName": "头部",
+      "figmaType": "frame",
+      "fingerprint": {
+        "nodeCount": 51,
+        "bbox": [
+          0.0,
+          0.0,
+          390.0,
+          304.0
+        ],
+        "summary": "Section \"头部\", type: frame, depth: 1, nodes: 51, 7 text elements, 3 instances, 10 image placeholders"
+      }
+    },
+    {
+      "sectionId": "section_1_12001_33092",
+      "figmaNodeId": "12001:33092",
+      "figmaPath": "内容",
+      "figmaName": "内容",
+      "figmaType": "frame",
+      "fingerprint": {
+        "nodeCount": 511,
+        "bbox": [
+          0.0,
+          318.0,
+          390.0,
+          4058.0
+        ],
+        "summary": "Section \"内容\", type: frame, depth: 1, nodes: 511, 77 text elements, 54 instances, 98 image placeholders"
+      }
+    }
+  ]
+}

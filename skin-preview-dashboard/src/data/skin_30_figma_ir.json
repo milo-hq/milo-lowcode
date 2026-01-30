@@ -1,0 +1,190 @@
+{
+  "skinId": "malt_green_30",
+  "frameId": "12001:32505",
+  "frameName": "首页全尺寸-游戏类型",
+  "root": {
+    "id": "12001:32505",
+    "name": "首页全尺寸-游戏类型",
+    "type": "frame",
+    "bbox": [
+      -3068.0,
+      -7036.0,
+      390.0,
+      4643.2236328125
+    ],
+    "children": [
+      {
+        "id": "12982:34576",
+        "name": "Group 2131331046",
+        "type": "frame",
+        "bbox": [
+          0.0,
+          0.0,
+          390.0,
+          99.0
+        ],
+        "children": [
+          {
+            "id": "12001:32506",
+            "name": "下载",
+            "type": "frame",
+            "bbox": [
+              0.0,
+              0.0,
+              390.0,
+              50.0
+            ]
+          },
+          {
+            "id": "12001:33348",
+            "name": "Frame 2131331772",
+            "type": "frame",
+            "bbox": [
+              0.0,
+              49.0,
+              390.0,
+              50.0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "12979:33636",
+        "name": "Frame 2131331777",
+        "type": "frame",
+        "bbox": [
+          0.0,
+          106.0,
+          390.0,
+          4537.2236328125
+        ],
+        "children": [
+          {
+            "id": "12001:32603",
+            "name": "Frame 2131331774",
+            "type": "frame",
+            "bbox": [
+              0.0,
+              0.0,
+              390.0,
+              406.0
+            ]
+          },
+          {
+            "id": "12001:33267",
+            "name": "Group 2131331029",
+            "type": "frame",
+            "bbox": [
+              12.0,
+              418.0,
+              366.0,
+              118.0
+            ]
+          },
+          {
+            "id": "12982:33640",
+            "name": "Frame 2131331046",
+            "type": "frame",
+            "bbox": [
+              0.0,
+              548.0,
+              390.0,
+              83.0
+            ]
+          },
+          {
+            "id": "12982:33641",
+            "name": "Frame 2131331740",
+            "type": "frame",
+            "bbox": [
+              12.0,
+              643.0,
+              366.0,
+              2670.2236328125
+            ]
+          },
+          {
+            "id": "12982:34283",
+            "name": "Frame 2131331036",
+            "type": "frame",
+            "bbox": [
+              12.0,
+              3325.2236328125,
+              366.0,
+              295.0
+            ]
+          },
+          {
+            "id": "12982:34413",
+            "name": "Frame 2131331734",
+            "type": "frame",
+            "bbox": [
+              11.5,
+              3632.2236328125,
+              367.0,
+              90.0
+            ]
+          },
+          {
+            "id": "12982:34450",
+            "name": "底部",
+            "type": "frame",
+            "bbox": [
+              -0.5,
+              3734.2236328125,
+              391.0,
+              710.0
+            ]
+          },
+          {
+            "id": "12982:34543",
+            "name": "Group 2131331043",
+            "type": "frame",
+            "bbox": [
+              0.0,
+              4456.2236328125,
+              390.0,
+              81.0
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "sectionId": "section_0_12982_34576",
+      "figmaNodeId": "12982:34576",
+      "figmaPath": "Group 2131331046",
+      "figmaName": "Group 2131331046",
+      "figmaType": "frame",
+      "fingerprint": {
+        "nodeCount": 29,
+        "bbox": [
+          0.0,
+          0.0,
+          390.0,
+          99.0
+        ],
+        "summary": "Section \"Group 2131331046\", type: frame, depth: 1, nodes: 29, 4 text elements, 3 instances, 4 image placeholders"
+      }
+    },
+    {
+      "sectionId": "section_1_12979_33636",
+      "figmaNodeId": "12979:33636",
+      "figmaPath": "Frame 2131331777",
+      "figmaName": "Frame 2131331777",
+      "figmaType": "frame",
+      "fingerprint": {
+        "nodeCount": 694,
+        "bbox": [
+          0.0,
+          106.0,
+          390.0,
+          4537.2236328125
+        ],
+        "summary": "Section \"Frame 2131331777\", type: frame, depth: 1, nodes: 694, 128 text elements, 92 instances, 195 image placeholders"
+      }
+    }
+  ]
+}

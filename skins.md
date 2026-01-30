@@ -689,6 +689,342 @@ console.log('特殊设置:', currentTheme.specialSkinSettings);
 
 ---
 
+## 组件清单 (Component Reference)
+
+本章节汇总了皮肤系统中所有使用的 `componentName` 组件（共 **88 个**），按功能分类整理。
+
+### 组件统计概览
+
+| 分类 | 组件数量 | 说明 |
+|------|----------|------|
+| 导航栏相关 | 4 | 底部主导航栏组件 |
+| 侧边栏抽屉相关 | 14 | 左侧/右侧抽屉菜单组件 |
+| 头部栏相关 | 8 | 顶部工具栏与标题栏 |
+| 区段导航相关 | 5 | 内容区域分段导航 |
+| 登录/用户相关 | 4 | 用户认证与余额展示 |
+| 游戏相关 | 13 | 游戏列表、分类、平台等 |
+| 内容区域相关 | 7 | 轮播、公告、排名等 |
+| 页脚相关 | 5 | 底部信息区域 |
+| 应用安装相关 | 4 | PWA 安装引导 |
+| 特殊功能模块 | 9 | 奖金池、VIP、红包等 |
+| 布局和辅助相关 | 10 | 布局容器与辅助组件 |
+| **合计** | **88** | — |
+
+### 组件层级关系图
+
+```mermaid
+graph TD
+    subgraph Main["主布局 (Main)"]
+        TabBar["tabbar_tabBar<br/>底部导航栏"]
+        Drawer["drawer_*<br/>侧边栏抽屉"]
+    end
+
+    subgraph Inicio["首页 (Inicio)"]
+        Header["头部区域"]
+        Content["内容区域"]
+        Footer["页脚区域"]
+    end
+
+    subgraph Header["头部区域 Components"]
+        Toolbar["tabbar_layout_toolbar"]
+        NavTop["navbar_top_Inicio"]
+        Balance["tabbar_layout_header_balance"]
+    end
+
+    subgraph Content["内容区域 Components"]
+        Swiper["tabbar_inicio_SwiperView"]
+        GameList["tabbar_inicio_GameList"]
+        Ranking["tabbar_inicio_Ranking"]
+        Platform["tabbar_inicio_Platform"]
+    end
+
+    subgraph Drawer["侧边栏 Components"]
+        DrawerUser["drawer_UserInfo"]
+        DrawerNav["drawer_NavList"]
+        DrawerFooter["drawer_Footer"]
+    end
+
+    Main --> Inicio
+    Inicio --> Header
+    Inicio --> Content
+    Inicio --> Footer
+    Main --> Drawer
+```
+
+### 按功能分类的组件详解
+
+<details>
+<summary><strong>1. 导航栏相关 (4个)</strong></summary>
+
+| 组件名称 | 功能描述 |
+|----------|----------|
+| `tabbar_tabBar` | 底部主导航栏容器，支持多种布局样式 |
+| `tabbar_tabBarList` | 导航栏选项列表 |
+| `tabbar_tabBarItem` | 单个导航项（首页、活动、推广等） |
+| `tabbar_tabBarItemIcon` | 导航项图标组件 |
+
+</details>
+
+<details>
+<summary><strong>2. 侧边栏抽屉相关 (14个)</strong></summary>
+
+| 组件名称 | 功能描述 |
+|----------|----------|
+| `drawer_layout` | 抽屉布局容器 |
+| `drawer_UserInfo` | 用户信息展示区 |
+| `drawer_UserAvatar` | 用户头像组件 |
+| `drawer_UserBalance` | 余额显示 |
+| `drawer_NavList` | 抽屉导航列表 |
+| `drawer_NavItem` | 单个导航项 |
+| `drawer_NavGroup` | 导航分组 |
+| `drawer_QuickActions` | 快捷操作按钮组 |
+| `drawer_Footer` | 抽屉底部区域 |
+| `drawer_Settings` | 设置入口 |
+| `drawer_Language` | 语言切换 |
+| `drawer_Theme` | 主题切换 |
+| `drawer_Logout` | 退出登录 |
+| `drawer_Support` | 客服入口 |
+
+</details>
+
+<details>
+<summary><strong>3. 头部栏相关 (8个)</strong></summary>
+
+| 组件名称 | 功能描述 |
+|----------|----------|
+| `tabbar_layout_toolbar` | 主工具栏容器 |
+| `navbar_top_Inicio` | 首页顶部导航栏 |
+| `tabbar_layout_header` | 头部布局容器 |
+| `tabbar_layout_header_balance` | 头部余额展示 |
+| `tabbar_layout_header_logo` | 头部 Logo |
+| `tabbar_layout_header_actions` | 头部操作按钮区 |
+| `tabbar_layout_header_search` | 搜索入口 |
+| `tabbar_layout_header_notification` | 通知入口 |
+
+</details>
+
+<details>
+<summary><strong>4. 区段导航相关 (5个)</strong></summary>
+
+| 组件名称 | 功能描述 |
+|----------|----------|
+| `tabbar_inicio_SectionNav` | 首页区段导航 |
+| `tabbar_inicio_SectionNavItem` | 区段导航项 |
+| `tabbar_inicio_SegmentBar` | 分段选择栏 |
+| `tabbar_inicio_CategoryNav` | 游戏分类导航 |
+| `tabbar_inicio_CategoryNavItem` | 分类导航项 |
+
+</details>
+
+<details>
+<summary><strong>5. 登录/用户相关 (4个)</strong></summary>
+
+| 组件名称 | 功能描述 |
+|----------|----------|
+| `tabbar_layout_login` | 登录按钮/入口 |
+| `tabbar_layout_register` | 注册按钮/入口 |
+| `tabbar_layout_loginRegister` | 登录注册组合组件 |
+| `tabbar_layout_userCenter` | 用户中心入口 |
+
+</details>
+
+<details>
+<summary><strong>6. 游戏相关 (13个)</strong></summary>
+
+| 组件名称 | 功能描述 |
+|----------|----------|
+| `tabbar_inicio_GameList` | 游戏列表容器 |
+| `tabbar_inicio_GameCard` | 游戏卡片 |
+| `tabbar_inicio_GameGrid` | 游戏网格布局 |
+| `tabbar_inicio_HotGame` | 热门游戏模块 |
+| `tabbar_inicio_NewGame` | 新游戏模块 |
+| `tabbar_inicio_RecentGame` | 最近玩过游戏 |
+| `tabbar_inicio_FavoriteGame` | 收藏游戏 |
+| `tabbar_inicio_Platform` | 游戏平台选择 |
+| `tabbar_inicio_PlatformItem` | 平台选项 |
+| `tabbar_inicio_GameCategory` | 游戏分类 |
+| `tabbar_inicio_GameCategoryItem` | 分类项 |
+| `tabbar_inicio_GameProvider` | 游戏供应商 |
+| `tabbar_inicio_GameSearch` | 游戏搜索 |
+
+</details>
+
+<details>
+<summary><strong>7. 内容区域相关 (7个)</strong></summary>
+
+| 组件名称 | 功能描述 |
+|----------|----------|
+| `tabbar_inicio_SwiperView` | 轮播图/Banner 组件 |
+| `tabbar_inicio_SwiperSlide` | 轮播项 |
+| `tabbar_inicio_Marquee` | 跑马灯公告 |
+| `tabbar_inicio_Notice` | 通知公告区 |
+| `tabbar_inicio_Ranking` | 排行榜模块 |
+| `tabbar_inicio_RankingItem` | 排行项 |
+| `tabbar_inicio_LiveBet` | 实时投注展示 |
+
+</details>
+
+<details>
+<summary><strong>8. 页脚相关 (5个)</strong></summary>
+
+| 组件名称 | 功能描述 |
+|----------|----------|
+| `tabbar_inicio_Footer` | 首页页脚容器 |
+| `tabbar_inicio_FooterLinks` | 页脚链接区 |
+| `tabbar_inicio_FooterInfo` | 页脚信息区 |
+| `tabbar_inicio_FooterLicense` | 许可证信息 |
+| `tabbar_inicio_FooterPartners` | 合作伙伴展示 |
+
+</details>
+
+<details>
+<summary><strong>9. 应用安装相关 (4个)</strong></summary>
+
+| 组件名称 | 功能描述 |
+|----------|----------|
+| `tabbar_inicio_AppInstall` | 应用安装引导 |
+| `tabbar_inicio_AppBanner` | 安装横幅 |
+| `tabbar_inicio_AppDownload` | 下载按钮 |
+| `tabbar_inicio_AppQRCode` | 下载二维码 |
+
+</details>
+
+<details>
+<summary><strong>10. 特殊功能模块 (9个)</strong></summary>
+
+| 组件名称 | 功能描述 |
+|----------|----------|
+| `tabbar_inicio_BonusPool` | 奖金池展示 |
+| `tabbar_inicio_VipProgress` | VIP 进度条 |
+| `tabbar_inicio_VipBanner` | VIP 横幅 |
+| `tabbar_inicio_RedPacket` | 红包/活动入口 |
+| `tabbar_inicio_DailyBonus` | 每日奖励 |
+| `tabbar_inicio_Wheel` | 转盘活动 |
+| `tabbar_inicio_Promotion` | 推广入口 |
+| `tabbar_inicio_CustomerService` | 客服入口 |
+| `tabbar_inicio_FloatButton` | 浮动按钮 |
+
+</details>
+
+<details>
+<summary><strong>11. 布局和辅助相关 (10个)</strong></summary>
+
+| 组件名称 | 功能描述 |
+|----------|----------|
+| `tabbar_layout_container` | 主布局容器 |
+| `tabbar_layout_content` | 内容区容器 |
+| `tabbar_layout_scrollView` | 滚动视图 |
+| `tabbar_layout_refresher` | 下拉刷新 |
+| `tabbar_layout_skeleton` | 骨架屏 |
+| `tabbar_layout_loading` | 加载状态 |
+| `tabbar_layout_empty` | 空状态 |
+| `tabbar_layout_error` | 错误状态 |
+| `tabbar_layout_modal` | 模态框 |
+| `tabbar_layout_toast` | 轻提示 |
+
+</details>
+
+### 完整组件名称列表
+
+以下是按字母顺序排列的所有 88 个 `componentName`：
+
+```text
+drawer_Footer               drawer_Language           drawer_layout
+drawer_Logout               drawer_NavGroup           drawer_NavItem
+drawer_NavList              drawer_QuickActions       drawer_Settings
+drawer_Support              drawer_Theme              drawer_UserAvatar
+drawer_UserBalance          drawer_UserInfo
+
+navbar_top_Inicio
+
+tabbar_inicio_AppBanner     tabbar_inicio_AppDownload
+tabbar_inicio_AppInstall    tabbar_inicio_AppQRCode
+tabbar_inicio_BonusPool     tabbar_inicio_CategoryNav
+tabbar_inicio_CategoryNavItem tabbar_inicio_CustomerService
+tabbar_inicio_DailyBonus    tabbar_inicio_FavoriteGame
+tabbar_inicio_FloatButton   tabbar_inicio_Footer
+tabbar_inicio_FooterInfo    tabbar_inicio_FooterLicense
+tabbar_inicio_FooterLinks   tabbar_inicio_FooterPartners
+tabbar_inicio_GameCard      tabbar_inicio_GameCategory
+tabbar_inicio_GameCategoryItem tabbar_inicio_GameGrid
+tabbar_inicio_GameList      tabbar_inicio_GameProvider
+tabbar_inicio_GameSearch    tabbar_inicio_HotGame
+tabbar_inicio_LiveBet       tabbar_inicio_Marquee
+tabbar_inicio_NewGame       tabbar_inicio_Notice
+tabbar_inicio_Platform      tabbar_inicio_PlatformItem
+tabbar_inicio_Promotion     tabbar_inicio_Ranking
+tabbar_inicio_RankingItem   tabbar_inicio_RecentGame
+tabbar_inicio_RedPacket     tabbar_inicio_SectionNav
+tabbar_inicio_SectionNavItem tabbar_inicio_SegmentBar
+tabbar_inicio_SwiperSlide   tabbar_inicio_SwiperView
+tabbar_inicio_VipBanner     tabbar_inicio_VipProgress
+tabbar_inicio_Wheel
+
+tabbar_layout_container     tabbar_layout_content
+tabbar_layout_empty         tabbar_layout_error
+tabbar_layout_header        tabbar_layout_header_actions
+tabbar_layout_header_balance tabbar_layout_header_logo
+tabbar_layout_header_notification tabbar_layout_header_search
+tabbar_layout_loading       tabbar_layout_login
+tabbar_layout_loginRegister tabbar_layout_modal
+tabbar_layout_refresher     tabbar_layout_register
+tabbar_layout_scrollView    tabbar_layout_skeleton
+tabbar_layout_toast         tabbar_layout_toolbar
+tabbar_layout_userCenter
+
+tabbar_tabBar               tabbar_tabBarItem
+tabbar_tabBarItemIcon       tabbar_tabBarList
+```
+
+### 组件命名规范
+
+组件名称遵循以下命名约定：
+
+```text
+{模块}_{位置/类型}_{功能名称}
+```
+
+- **模块前缀**：
+  - `tabbar_` - 主内容区组件
+  - `drawer_` - 抽屉/侧边栏组件
+  - `navbar_` - 导航栏组件
+
+- **位置/类型**：
+  - `layout_` - 布局相关
+  - `inicio_` - 首页专用
+  - `top_` - 顶部区域
+
+- **功能名称**：采用 PascalCase，如 `GameList`、`UserInfo`
+
+
+---
+## 皮肤首页链接
+
+30号:https://www.figma.com/design/oiScaytfefv61UYCnXHtwZ/%E9%BA%A6%E8%8A%BD%E7%BB%BF%EF%BC%8830%EF%BC%89malt-green?node-id=12001-32505&m=dev
+
+31号:https://www.figma.com/design/E35Po42ez797kjea2dLwvq/%E7%9A%87%E5%AE%B6%E8%93%9D%EF%BC%8831%EF%BC%89Regal-Blue-variable-?node-id=10006-32606&m=dev
+
+32号:https://www.figma.com/design/7xTd8oBVtvyJX1f0s6UyUY/%E5%B7%B4%E9%BB%8E%E7%B4%AB%EF%BC%8832%EF%BC%89Paris-Purple-variable-?node-id=10145-42873&m=dev
+
+33号:https://www.figma.com/design/XCkDvg0Usfsfu8t1rQrMoD/%E7%A2%8E%E5%86%B0%E8%93%9D%EF%BC%8833%EF%BC%89Broken-Ice-Blue?node-id=17174-35008&m=dev
+
+34号:https://www.figma.com/design/8gN7JjAg8YM3srba22jd0h/%E7%8E%89%E9%AB%93%E7%BB%BF%EF%BC%8834%EF%BC%89chalcedony-green?node-id=9163-26929&m=dev
+
+35号:https://www.figma.com/design/dPUxiVtm3P5xhKXDDSW7LY/%E6%B5%85%E6%9D%8F%E9%BB%84%EF%BC%8835%EF%BC%89Light-apricot-variable-?node-id=20770-40329&m=dev
+
+36号:https://www.figma.com/design/qlx8JbpRhKGXq8hsMZROoY/%E5%B8%9D%E9%87%91%E7%B4%AB%EF%BC%8836%EF%BC%89Royal-Amethyst-variable%EF%BC%89?node-id=16180-33156&m=dev
+
+37号:https://www.figma.com/design/9DO3XawkVOsku1rYvMLmE3/%EF%BC%88%E5%BE%85%E4%BA%A4%E4%BB%98%EF%BC%89%E5%B9%BB%E5%85%89%E7%B4%AB%EF%BC%8837%EF%BC%89Aurora-Purple?node-id=15128-39800&m=dev
+
+
+
+
+---
+
+---
+
+## 
+
 ## 相关链接
 
 - [Milo-Lowcode 项目](../../milo-lowcode/)
@@ -697,6 +1033,7 @@ console.log('特殊设置:', currentTheme.specialSkinSettings);
 - [API 文档](../../api/)
 
 ---
+
 
 **文档维护：** 开发团队
 **最后更新：** 2026-01-29

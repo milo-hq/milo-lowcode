@@ -1,0 +1,820 @@
+{
+  "skinId": "paris_purple_32",
+  "frameId": "10145:42873",
+  "frameName": "首页全尺寸-未登录",
+  "root": {
+    "id": "10145:42873",
+    "name": "首页全尺寸-未登录",
+    "type": "frame",
+    "bbox": [
+      436.0,
+      -1064.0,
+      390.0,
+      5304.0
+    ],
+    "children": [
+      {
+        "id": "12764:35765",
+        "name": "顶部",
+        "type": "frame",
+        "bbox": [
+          0.0,
+          0.0,
+          390.0,
+          100.0
+        ],
+        "children": [
+          {
+            "id": "10167:39483",
+            "name": "Frame 619",
+            "type": "frame",
+            "bbox": [
+              0.0,
+              0.0,
+              390.0,
+              50.0
+            ]
+          },
+          {
+            "id": "10332:32166",
+            "name": "头部",
+            "type": "instance",
+            "bbox": [
+              0.0,
+              50.0,
+              390.0,
+              50.0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "10198:40082",
+        "name": "Frame 2131331080",
+        "type": "frame",
+        "bbox": [
+          12.0,
+          116.0,
+          366.0,
+          174.0
+        ],
+        "children": [
+          {
+            "id": "10198:40098",
+            "name": "Rectangle 346244631",
+            "type": "rounded-rectangle",
+            "bbox": [
+              0.0,
+              0.0,
+              366.0,
+              174.0
+            ]
+          },
+          {
+            "id": "10198:40084",
+            "name": "Frame 1410103373",
+            "type": "frame",
+            "bbox": [
+              2.0,
+              2.0,
+              362.0,
+              170.0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "12764:35910",
+        "name": "_营销图轮播",
+        "type": "instance",
+        "bbox": [
+          12.0,
+          306.0,
+          366.0,
+          124.0
+        ]
+      },
+      {
+        "id": "10145:44942",
+        "name": "个人中心",
+        "type": "frame",
+        "bbox": [
+          12.0,
+          446.0,
+          366.0,
+          236.0
+        ],
+        "children": [
+          {
+            "id": "10145:44943",
+            "name": "Frame 1686553974",
+            "type": "frame",
+            "bbox": [
+              0.0,
+              0.0,
+              366.0,
+              236.00001525878906
+            ]
+          },
+          {
+            "id": "10145:45043",
+            "name": "icon",
+            "type": "frame",
+            "bbox": [
+              0.0,
+              150.0693359375,
+              366.0,
+              85.9306640625
+            ]
+          }
+        ]
+      },
+      {
+        "id": "12108:34658",
+        "name": "jackpot",
+        "type": "frame",
+        "bbox": [
+          0.0,
+          698.0,
+          390.0,
+          190.0
+        ],
+        "children": [
+          {
+            "id": "12108:34659",
+            "name": "图层 1 28",
+            "type": "rounded-rectangle",
+            "bbox": [
+              5.0,
+              -1.25,
+              380.0,
+              190.5
+            ]
+          },
+          {
+            "id": "12108:34660",
+            "name": "image 1136",
+            "type": "rounded-rectangle",
+            "bbox": [
+              54.82964324951172,
+              80.90949249267578,
+              55.09070760011673,
+              55.90949201583862
+            ]
+          },
+          {
+            "id": "12108:34661",
+            "name": "4",
+            "type": "rounded-rectangle",
+            "bbox": [
+              30.0,
+              5.0,
+              105.0,
+              71.0
+            ]
+          },
+          {
+            "id": "12108:34662",
+            "name": "5",
+            "type": "rounded-rectangle",
+            "bbox": [
+              370.0,
+              5.0,
+              105.0,
+              71.0
+            ]
+          },
+          {
+            "id": "12108:34663",
+            "name": "图层 32 1",
+            "type": "rounded-rectangle",
+            "bbox": [
+              77.0,
+              7.0,
+              35.0,
+              37.0
+            ]
+          },
+          {
+            "id": "12108:34664",
+            "name": "image 1138",
+            "type": "rounded-rectangle",
+            "bbox": [
+              24.82964324951172,
+              203.90948486328125,
+              55.09070760011673,
+              55.90949201583862
+            ]
+          },
+          {
+            "id": "12108:34665",
+            "name": "Rectangle 346244613",
+            "type": "rounded-rectangle",
+            "bbox": [
+              97.0,
+              76.0,
+              197.0,
+              35.0
+            ]
+          },
+          {
+            "id": "12108:34666",
+            "name": "Rectangle 346244614",
+            "type": "vector",
+            "bbox": [
+              88.0,
+              28.0,
+              215.0,
+              122.0
+            ]
+          },
+          {
+            "id": "12108:34667",
+            "name": "image 1137",
+            "type": "rounded-rectangle",
+            "bbox": [
+              93.06126403808594,
+              168.42864990234375,
+              58.95498700015571,
+              59.61907649572049
+            ]
+          },
+          {
+            "id": "12108:34668",
+            "name": "图2层 4 1",
+            "type": "rounded-rectangle",
+            "bbox": [
+              63.0,
+              143.0,
+              57.0,
+              48.0
+            ]
+          },
+          {
+            "id": "12108:34669",
+            "name": "99872 1",
+            "type": "rounded-rectangle",
+            "bbox": [
+              53.0,
+              6.8095703125,
+              300.0,
+              65.0
+            ]
+          },
+          {
+            "id": "12108:34670",
+            "name": "image 30361",
+            "type": "rounded-rectangle",
+            "bbox": [
+              0.0,
+              41.0,
+              387.0,
+              163.0
+            ]
+          },
+          {
+            "id": "12108:34671",
+            "name": "image 1132",
+            "type": "rounded-rectangle",
+            "bbox": [
+              246.0,
+              150.0,
+              22.0,
+              23.0
+            ]
+          },
+          {
+            "id": "12108:34672",
+            "name": "Group 2131331026",
+            "type": "frame",
+            "bbox": [
+              89.0,
+              85.8095703125,
+              212.0,
+              48.0
+            ]
+          },
+          {
+            "id": "12108:34675",
+            "name": "The prize pool amount of FXFX",
+            "type": "text",
+            "bbox": [
+              102.0,
+              69.0,
+              186.0,
+              18.0
+            ]
+          },
+          {
+            "id": "12108:34676",
+            "name": "image 1133",
+            "type": "rounded-rectangle",
+            "bbox": [
+              77.0,
+              71.8095703125,
+              32.0,
+              25.0
+            ]
+          },
+          {
+            "id": "12108:34677",
+            "name": "图层 122 1",
+            "type": "rounded-rectangle",
+            "bbox": [
+              250.0,
+              4.8095703125,
+              140.0,
+              182.0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "12774:35985",
+        "name": "_热门厂商卡片展示",
+        "type": "instance",
+        "bbox": [
+          15.0,
+          904.0,
+          360.0,
+          148.0
+        ]
+      },
+      {
+        "id": "12774:36094",
+        "name": "_自定义卡片",
+        "type": "instance",
+        "bbox": [
+          15.0,
+          1068.0,
+          360.0,
+          190.0
+        ]
+      },
+      {
+        "id": "12108:34700",
+        "name": "公告",
+        "type": "frame",
+        "bbox": [
+          12.0,
+          1274.0,
+          366.0,
+          36.0
+        ],
+        "children": [
+          {
+            "id": "10150:35363",
+            "name": "Group 1261158809",
+            "type": "frame",
+            "bbox": [
+              0.0,
+              0.0,
+              319.0,
+              36.0
+            ]
+          },
+          {
+            "id": "10150:35375",
+            "name": "Group 1410103190",
+            "type": "frame",
+            "bbox": [
+              330.0,
+              0.0,
+              36.0,
+              36.0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "10150:35302",
+        "name": "菜单",
+        "type": "frame",
+        "bbox": [
+          0.0,
+          1326.0,
+          390.0,
+          68.0
+        ],
+        "children": [
+          {
+            "id": "10150:35303",
+            "name": "Frame 2131331021",
+            "type": "frame",
+            "bbox": [
+              11.0,
+              10.0,
+              690.0,
+              48.0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "10353:33308",
+        "name": "视频区",
+        "type": "frame",
+        "bbox": [
+          12.0,
+          3174.0,
+          366.0,
+          206.0
+        ],
+        "children": [
+          {
+            "id": "10353:33309",
+            "name": "视频内容",
+            "type": "frame",
+            "bbox": [
+              0.0,
+              0.0,
+              366.0,
+              206.0
+            ]
+          },
+          {
+            "id": "10353:33316",
+            "name": "播放器外框",
+            "type": "frame",
+            "bbox": [
+              0.0,
+              0.0,
+              366.0,
+              206.0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "12174:55621",
+        "name": "排行榜",
+        "type": "frame",
+        "bbox": [
+          0.0,
+          3396.0,
+          390.0,
+          623.0
+        ],
+        "children": [
+          {
+            "id": "12174:55622",
+            "name": "rank",
+            "type": "frame",
+            "bbox": [
+              0.0,
+              50.0,
+              390.0,
+              290.0
+            ]
+          },
+          {
+            "id": "12174:55713",
+            "name": "top",
+            "type": "frame",
+            "bbox": [
+              0.0,
+              0.0,
+              390.0,
+              50.0
+            ]
+          },
+          {
+            "id": "12174:55719",
+            "name": "rank",
+            "type": "frame",
+            "bbox": [
+              0.0,
+              340.0,
+              390.0,
+              283.0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "10145:45112",
+        "name": "底部详情",
+        "type": "frame",
+        "bbox": [
+          0.0,
+          4035.0,
+          390.0,
+          1135.0
+        ],
+        "children": [
+          {
+            "id": "10145:45113",
+            "name": "Group 2131331031",
+            "type": "frame",
+            "bbox": [
+              12.0,
+              19.0,
+              366.0,
+              86.0
+            ]
+          },
+          {
+            "id": "10145:45133",
+            "name": "Group 2131331032",
+            "type": "frame",
+            "bbox": [
+              12.0,
+              125.0,
+              366.0,
+              182.0
+            ]
+          },
+          {
+            "id": "10145:45160",
+            "name": "Group 2131331033",
+            "type": "frame",
+            "bbox": [
+              12.0,
+              327.0,
+              366.0,
+              192.0
+            ]
+          },
+          {
+            "id": "10145:45196",
+            "name": "Group 2131331034",
+            "type": "frame",
+            "bbox": [
+              12.0,
+              539.0,
+              364.29400634765625,
+              63.0
+            ]
+          },
+          {
+            "id": "10145:45222",
+            "name": "Group 2131331035",
+            "type": "frame",
+            "bbox": [
+              0.0,
+              621.7646484375,
+              390.0,
+              345.0
+            ]
+          },
+          {
+            "id": "10170:48921",
+            "name": "top",
+            "type": "frame",
+            "bbox": [
+              12.0,
+              1019.0,
+              42.0,
+              42.0
+            ]
+          },
+          {
+            "id": "10170:48916",
+            "name": "客服",
+            "type": "frame",
+            "bbox": [
+              12.0,
+              949.0,
+              42.0,
+              42.0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "10198:33899",
+        "name": "_tab栏",
+        "type": "instance",
+        "bbox": [
+          0.0,
+          5186.0,
+          390.0,
+          118.0
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "sectionId": "section_0_12764_35765",
+      "figmaNodeId": "12764:35765",
+      "figmaPath": "顶部",
+      "figmaName": "顶部",
+      "figmaType": "frame",
+      "fingerprint": {
+        "nodeCount": 17,
+        "bbox": [
+          0.0,
+          0.0,
+          390.0,
+          100.0
+        ],
+        "summary": "Section \"顶部\", type: frame, depth: 1, nodes: 17, 2 text elements, 2 instances, 3 image placeholders"
+      }
+    },
+    {
+      "sectionId": "section_1_10198_40082",
+      "figmaNodeId": "10198:40082",
+      "figmaPath": "Frame 2131331080",
+      "figmaName": "Frame 2131331080",
+      "figmaType": "frame",
+      "fingerprint": {
+        "nodeCount": 4,
+        "bbox": [
+          12.0,
+          116.0,
+          366.0,
+          174.0
+        ],
+        "summary": "Section \"Frame 2131331080\", type: frame, depth: 1, nodes: 4, 2 image placeholders"
+      }
+    },
+    {
+      "sectionId": "section_2_12764_35910",
+      "figmaNodeId": "12764:35910",
+      "figmaPath": "_营销图轮播",
+      "figmaName": "_营销图轮播",
+      "figmaType": "instance",
+      "fingerprint": {
+        "nodeCount": 1,
+        "bbox": [
+          12.0,
+          306.0,
+          366.0,
+          124.0
+        ],
+        "summary": "Section \"_营销图轮播\", type: instance, depth: 1, nodes: 1, 1 instances"
+      }
+    },
+    {
+      "sectionId": "section_3_10145_44942",
+      "figmaNodeId": "10145:44942",
+      "figmaPath": "个人中心",
+      "figmaName": "个人中心",
+      "figmaType": "frame",
+      "fingerprint": {
+        "nodeCount": 82,
+        "bbox": [
+          12.0,
+          446.0,
+          366.0,
+          236.0
+        ],
+        "summary": "Section \"个人中心\", type: frame, depth: 1, nodes: 82, 8 text elements, 1 instances, 27 image placeholders"
+      }
+    },
+    {
+      "sectionId": "section_4_12108_34658",
+      "figmaNodeId": "12108:34658",
+      "figmaPath": "jackpot",
+      "figmaName": "jackpot",
+      "figmaType": "frame",
+      "fingerprint": {
+        "nodeCount": 20,
+        "bbox": [
+          0.0,
+          698.0,
+          390.0,
+          190.0
+        ],
+        "summary": "Section \"jackpot\", type: frame, depth: 1, nodes: 20, 2 text elements, 15 image placeholders"
+      }
+    },
+    {
+      "sectionId": "section_5_12774_35985",
+      "figmaNodeId": "12774:35985",
+      "figmaPath": "_热门厂商卡片展示",
+      "figmaName": "_热门厂商卡片展示",
+      "figmaType": "instance",
+      "fingerprint": {
+        "nodeCount": 1,
+        "bbox": [
+          15.0,
+          904.0,
+          360.0,
+          148.0
+        ],
+        "summary": "Section \"_热门厂商卡片展示\", type: instance, depth: 1, nodes: 1, 1 instances"
+      }
+    },
+    {
+      "sectionId": "section_6_12774_36094",
+      "figmaNodeId": "12774:36094",
+      "figmaPath": "_自定义卡片",
+      "figmaName": "_自定义卡片",
+      "figmaType": "instance",
+      "fingerprint": {
+        "nodeCount": 1,
+        "bbox": [
+          15.0,
+          1068.0,
+          360.0,
+          190.0
+        ],
+        "summary": "Section \"_自定义卡片\", type: instance, depth: 1, nodes: 1, 1 instances"
+      }
+    },
+    {
+      "sectionId": "section_7_12108_34700",
+      "figmaNodeId": "12108:34700",
+      "figmaPath": "公告",
+      "figmaName": "公告",
+      "figmaType": "frame",
+      "fingerprint": {
+        "nodeCount": 13,
+        "bbox": [
+          12.0,
+          1274.0,
+          366.0,
+          36.0
+        ],
+        "summary": "Section \"公告\", type: frame, depth: 1, nodes: 13, 2 text elements, 1 instances, 4 image placeholders"
+      }
+    },
+    {
+      "sectionId": "section_8_10150_35302",
+      "figmaNodeId": "10150:35302",
+      "figmaPath": "菜单",
+      "figmaName": "菜单",
+      "figmaType": "frame",
+      "fingerprint": {
+        "nodeCount": 7,
+        "bbox": [
+          0.0,
+          1326.0,
+          390.0,
+          68.0
+        ],
+        "summary": "Section \"菜单\", type: frame, depth: 1, nodes: 7, 4 instances, 1 image placeholders"
+      }
+    },
+    {
+      "sectionId": "section_12_10353_33308",
+      "figmaNodeId": "10353:33308",
+      "figmaPath": "视频区",
+      "figmaName": "视频区",
+      "figmaType": "frame",
+      "fingerprint": {
+        "nodeCount": 25,
+        "bbox": [
+          12.0,
+          3174.0,
+          366.0,
+          206.0
+        ],
+        "summary": "Section \"视频区\", type: frame, depth: 1, nodes: 25, 16 image placeholders"
+      }
+    },
+    {
+      "sectionId": "section_13_12174_55621",
+      "figmaNodeId": "12174:55621",
+      "figmaPath": "排行榜",
+      "figmaName": "排行榜",
+      "figmaType": "frame",
+      "fingerprint": {
+        "nodeCount": 148,
+        "bbox": [
+          0.0,
+          3396.0,
+          390.0,
+          623.0
+        ],
+        "summary": "Section \"排行榜\", type: frame, depth: 1, nodes: 148, 28 text elements, 6 instances, 7 image placeholders"
+      }
+    },
+    {
+      "sectionId": "section_14_10145_45112",
+      "figmaNodeId": "10145:45112",
+      "figmaPath": "底部详情",
+      "figmaName": "底部详情",
+      "figmaType": "frame",
+      "fingerprint": {
+        "nodeCount": 90,
+        "bbox": [
+          0.0,
+          4035.0,
+          390.0,
+          1135.0
+        ],
+        "summary": "Section \"底部详情\", type: frame, depth: 1, nodes: 90, 14 text elements, 18 instances, 11 image placeholders"
+      }
+    },
+    {
+      "sectionId": "section_15_10198_33899",
+      "figmaNodeId": "10198:33899",
+      "figmaPath": "_tab栏",
+      "figmaName": "_tab栏",
+      "figmaType": "instance",
+      "fingerprint": {
+        "nodeCount": 1,
+        "bbox": [
+          0.0,
+          5186.0,
+          390.0,
+          118.0
+        ],
+        "summary": "Section \"_tab栏\", type: instance, depth: 1, nodes: 1, 1 instances"
+      }
+    }
+  ]
+}
