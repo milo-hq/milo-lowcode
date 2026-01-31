@@ -82,13 +82,13 @@ export function PreviewPage() {
   }
 
   // 处理绑定操作
-  const handleBind = (strategy: 'reuse' | 'patch' | 'new') => {
+  const handleBind = (strategy?: 'reuse' | 'patch' | 'new') => {
     if (!selectedNode || !selectedComponent) return
 
     const newMapping: SectionMappingLabel = {
       sectionId: selectedNode.id,
       localComponentName: selectedComponent,
-      truthStrategy: strategy,
+      ...(strategy && { truthStrategy: strategy }),  // 有策略时才添加
     }
 
     const existingIndex = mappings.findIndex(m => m.sectionId === selectedNode.id)
@@ -317,23 +317,25 @@ export function PreviewPage() {
                           key={mapping.sectionId}
                           className="text-xs p-2 bg-muted rounded flex items-center justify-between"
                         >
-                          <div className="flex items-center gap-2 overflow-hidden">
+                          <div className="flex items-center gap-2 overflow-hidden flex-1 min-w-0">
                             <span className="truncate">{nodeName || mapping.sectionId}</span>
-                            <span className="text-muted-foreground">→</span>
+                            <span className="text-muted-foreground flex-shrink-0">→</span>
                             <span className="truncate text-blue-600">{mapping.localComponentName}</span>
-                            <span className={`
-                              px-1.5 py-0.5 rounded text-[10px]
-                              ${mapping.truthStrategy === 'reuse' ? 'bg-green-500/20 text-green-700' : ''}
-                              ${mapping.truthStrategy === 'patch' ? 'bg-yellow-500/20 text-yellow-700' : ''}
-                              ${mapping.truthStrategy === 'new' ? 'bg-red-500/20 text-red-700' : ''}
-                            `}>
-                              {mapping.truthStrategy}
-                            </span>
+                            {mapping.truthStrategy && (
+                              <span className={`
+                                px-1.5 py-0.5 rounded text-[10px] flex-shrink-0
+                                ${mapping.truthStrategy === 'reuse' ? 'bg-green-500/20 text-green-700' : ''}
+                                ${mapping.truthStrategy === 'patch' ? 'bg-yellow-500/20 text-yellow-700' : ''}
+                                ${mapping.truthStrategy === 'new' ? 'bg-red-500/20 text-red-700' : ''}
+                              `}>
+                                {mapping.truthStrategy}
+                              </span>
+                            )}
                           </div>
                           <Button
                             variant="ghost"
                             size="sm"
-                            className="h-6 w-6 p-0"
+                            className="h-6 w-6 p-0 flex-shrink-0"
                             onClick={() => handleDeleteMapping(mapping.sectionId)}
                           >
                             <Trash2 className="h-3 w-3" />

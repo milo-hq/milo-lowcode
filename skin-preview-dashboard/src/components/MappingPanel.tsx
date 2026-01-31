@@ -4,15 +4,15 @@ import { cn } from '@/lib/utils'
 import { useState } from 'react'
 
 // SectionMappingLabel 类型定义
-interface SectionMappingLabel {
+export interface SectionMappingLabel {
   sectionId: string
   localComponentName: string
   variantKey?: string
-  truthStrategy: 'reuse' | 'patch' | 'new'
+  truthStrategy?: 'reuse' | 'patch' | 'new'  // 可选
   notes?: string
 }
 
-interface Section {
+export interface Section {
   sectionId: string
   figmaName: string
   figmaType: string
@@ -21,7 +21,7 @@ interface Section {
 interface MappingPanelProps {
   selectedSection: Section | null
   selectedComponent: string | null
-  onBind: (strategy: 'reuse' | 'patch' | 'new') => void
+  onBind: (strategy?: 'reuse' | 'patch' | 'new') => void  // strategy 可选
   onClearSection: () => void
   onClearComponent: () => void
 }
@@ -34,7 +34,6 @@ export function MappingPanel({
   onClearComponent
 }: MappingPanelProps) {
   const [showStrategy, setShowStrategy] = useState(false)
-
   const canBind = selectedSection && selectedComponent
 
   return (
@@ -95,19 +94,30 @@ export function MappingPanel({
         </div>
       </div>
 
-      {/* 绑定按钮 */}
-      <div className="relative">
+      {/* 绑定按钮 - 分离主按钮和下拉 */}
+      <div className="relative flex">
+        {/* 主绑定按钮 */}
         <Button
           size="sm"
-          className="w-full"
+          className="flex-1 rounded-r-none"
           disabled={!canBind}
-          onClick={() => setShowStrategy(!showStrategy)}
+          onClick={() => onBind()}
         >
           <Link2 className="h-3.5 w-3.5 mr-1" />
           绑定
-          <ChevronDown className={cn("h-3.5 w-3.5 ml-1 transition-transform", showStrategy && "rotate-180")} />
+        </Button>
+        {/* 策略下拉按钮 */}
+        <Button
+          size="sm"
+          variant="default"
+          className="px-2 rounded-l-none border-l border-primary-foreground/20"
+          disabled={!canBind}
+          onClick={() => setShowStrategy(!showStrategy)}
+        >
+          <ChevronDown className={cn("h-3.5 w-3.5 transition-transform", showStrategy && "rotate-180")} />
         </Button>
 
+        {/* 策略下拉菜单 */}
         {showStrategy && canBind && (
           <div className="absolute top-full left-0 right-0 mt-1 bg-popover border rounded-md shadow-lg z-10">
             <button
@@ -143,5 +153,3 @@ export function MappingPanel({
     </div>
   )
 }
-
-export type { SectionMappingLabel, Section }

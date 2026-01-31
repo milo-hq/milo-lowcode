@@ -84,7 +84,7 @@ interface SectionMappingLabel {
   // e.g. "toolbar:logo+lang+buttons"
   variantKey?: string;
   // 决策标签（truth）：后续评估决策器用
-  truthStrategy: "reuse" | "patch" | "new";
+  truthStrategy?: "reuse" | "patch" | "new";
   // 可选： 说明为什么
   notes?: string;
 }
